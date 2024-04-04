@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/pexels-adam-lukac-773958.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__link a {
+    background-color: #9c5e46e1;
+    border: 3px solid #9c5e46;
+    color: #dce0e3;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+.intro-image__link a:hover {
+    transform: scale(1.1);
+}
+
+.intro-text {
+    background-color: #9c5e46;
+    color: #dce0e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 8rem;
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quality-image {
+    background-attachment: fixed;
+    background-image: url('../img/pexels-chevanon-photography-302899.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-image__link a {
+    background-color: #ac6926a8;
+    border: 3px solid #ac6826;
+    color: #dce0e3;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+.quality-image__link a:hover {
+    transform: scale(1.1);
+}
+
+.quality-text {
+    background-color: #985b1e;
+    color: #dce0e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 8rem;
+}
+
+.quality-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.origin-image {
+    background-attachment: fixed;
+    background-image: url('../img/pexels-jason-villanueva-851555.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.origin-image__link a {
+    background-color: #8b5b37d2;
+    border: 3px solid #8b5b37;
+    color: #dce0e3;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+.origin-image__link a:hover {
+    transform: scale(1.1);
+}
+
+.origin-text {
+    background-color: #8b5b37;
+    color: #dce0e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 8rem;
+}
+
+.origin-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    background-color: #7a4b1f;
+    color: #dce0e3;
+    height: 120px;
+    font-size: 1.25rem;
+    padding-top: 1.5rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.footer ul li a {
+    color: #dce0e3;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: #dce0e3;
+    display: inline-block;
+    transform: scale(1.2);
+}
